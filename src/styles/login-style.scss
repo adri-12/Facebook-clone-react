@@ -1,0 +1,223 @@
+body {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-size: 12px;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+}
+
+.default-container {
+    padding-bottom: 112px;
+    padding-top: 72px;
+    background-color: #f0f2f5;
+
+    .container {
+        margin: 0 auto;
+        padding: 20px 0;
+        position: relative;
+        width: 980px;
+
+        .fb-container {
+            display: inline-block;
+            box-sizing: border-box;
+            margin-right: 0;
+            padding-right: 32px;
+            width: 580px;
+
+            .fb-logo {
+                padding: 112px 0 16px;
+
+                img {
+                    height: 106px;
+                    margin: -28px;
+                }
+            }
+
+            h2 {
+                font-size: 28px;
+                font-weight: normal;
+                line-height: 32px;
+                width: 500px;
+                padding: 0 0 20px;
+                margin: 0;
+            }
+        }
+
+        .form-container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            box-sizing: border-box;
+            margin: 40px 0 0;
+            padding: 20px 0 28px;
+            width: 396px;
+            border: none;
+
+            .input-field {
+                font-size: 17px;
+                width: 364px;
+                margin: auto;
+                padding: 6px 0;
+            }
+
+            #email,
+            #pass {
+                border-radius: 6px;
+                font-size: 17px;
+                padding: 14px 16px;
+                width: 330px;
+                border: 1px solid #dddfe2;
+                color: #1d2129;
+                height: 22px;
+            }
+
+            .btn-container {
+                button {
+                    background-color: #1877f2;
+                    border: none;
+                    border-radius: 6px;
+                    font-size: 20px;
+                    line-height: 48px;
+                    padding: 0 16px;
+                    width: 332px;
+                    box-sizing: content-box;
+
+                    &:hover {
+                        background-color: #166fe5;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .forgot-pass {
+                margin-top: 16px;
+
+                a {
+                    color: #1877f2;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .vertical-line {
+                border-bottom: 1px solid #dadde1;
+                margin: 20px 16px;
+            }
+
+            .new-account {
+                border: none;
+                border-radius: 6px;
+                font-size: 17px;
+                line-height: 48px;
+                padding: 0 16px;
+                background-color: #42b72a;
+
+                &:hover {
+                    background-color: #36a420;
+                    border-color: #36a420;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .create-page {
+            margin-top: 28px;
+            text-align: center;
+            font-size: 14px;
+
+            a {
+                font-weight: 600;
+                text-decoration: none;
+                color: #1c1e21;
+            }
+        }
+    }
+
+    .second-container {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.footer-container {
+    padding-top: 20px;
+
+    .page-footer {
+        color: #737373;
+        margin: 0 auto;
+        width: 980px;
+
+        ul {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                padding-left: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: #8a8d91;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        #content-separator {
+            border-bottom: 1px solid #dddfe2;
+            font-size: 1px;
+            height: 8px;
+            margin-bottom: 8px;
+        }
+
+        .page-footer-children {
+            .btm-list {
+                li {
+                    padding-left: 20px;
+                }
+
+                line-height: 1.6;
+                margin-left: -20px
+            }
+        }
+
+        .ad-image {
+            width: 16px;
+            background-position: 0 -286px;
+
+            img {
+                position: absolute;
+                top: 1px;
+                vertical-align: middle;
+            }
+        }
+
+        .copyright {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 11px;
+        }
+    }
+}
+
+.icons {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/kNYkizqJr9j.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+}
